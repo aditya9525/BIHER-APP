@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDB6B6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/os"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/operating_system"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/custom_button"
+        android:onClick="operatingSystem"
+
+        />
+
+    <Button
+        android:id="@+id/dbms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/os"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:padding="20dp"
+        android:text="@string/database"
+        android:onClick="dbms"
+        />
+
+    <Button
+        android:id="@+id/mpc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:text="@string/mpc"
+        android:layout_below="@id/dbms"
+        android:background="@drawable/custom_button"
+        android:onClick="mpc"
+        />
+
+    <Button
+        android:id="@+id/iot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:text="@string/iot"
+        android:layout_below="@id/mpc"
+        android:background="@drawable/custom_button"
+        android:onClick="iot"
+        />
+
+    <Button
+        android:id="@+id/se"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iot"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:text="@string/se"
+        android:background="@drawable/custom_button"
+        android:onClick="se"
+        />
+
+    <Button
+        android:id="@+id/maths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text="@string/maths"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/se"
+        android:background="@drawable/custom_button"
+        android:onClick="maths"
+        />
+
+
+
+
+
+</RelativeLayout>

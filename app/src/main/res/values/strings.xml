@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BIHER</string>
+    <string name="operating_system">Operating System</string>
+    <string name="database">Database </string>
+    <string name="mpc">MPC</string>
+    <string name="iot">IOT</string>
+    <string name="se">SE</string>
+    <string name="maths">Maths</string>
+    <string name="uint">UNIT-1</string>
+    <string name="made_by_aditya">MADE 🌹 BY 🌹 ADITYA</string>
+</resources>

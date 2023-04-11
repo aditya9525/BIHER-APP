@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDB6B6"
+    tools:context=".Maths">
+
+    <Button
+        android:id="@+id/Munit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/uint"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/custom_button"
+        android:onClick="pdfView"
+        />
+
+    <Button
+        android:id="@+id/Munit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Munit1"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:padding="30dp"
+        android:text="UNIT-2"
+        android:onClick="pdfView2"
+        />
+    <Button
+        android:id="@+id/Munit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Munit2"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:padding="30dp"
+        android:text="UNIT-3"
+        android:onClick="pdfView3"
+        />
+    <Button
+        android:id="@+id/Munit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Munit3"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:padding="30dp"
+        android:text="UNIT-4"
+        android:onClick="pdfView4"
+        />
+    <Button
+        android:id="@+id/Munit5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Munit4"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:padding="30dp"
+        android:text="UNIT-5"
+        android:onClick="pdfView5"
+        />
+
+</RelativeLayout>

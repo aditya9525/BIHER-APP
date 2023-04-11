@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "594384013787",
+    "firebase_url": "https://my-college-f1b13-default-rtdb.firebaseio.com",
+    "project_id": "my-college-f1b13",
+    "storage_bucket": "my-college-f1b13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594384013787:android:7a943ea7b014c810d0fffe",
+        "android_client_info": {
+          "package_name": "com.instareel.biher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594384013787-t9paftf282p88dgrbsupnggcr6o27k85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYwBjl1AzsSsMs6pJchskUKi3hdaXTvEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594384013787-t9paftf282p88dgrbsupnggcr6o27k85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594384013787:android:40069ea309d7c33fd0fffe",
+        "android_client_info": {
+          "package_name": "com.instareel.mybiher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594384013787-t9paftf282p88dgrbsupnggcr6o27k85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYwBjl1AzsSsMs6pJchskUKi3hdaXTvEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594384013787-t9paftf282p88dgrbsupnggcr6o27k85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
